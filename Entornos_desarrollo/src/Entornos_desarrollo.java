@@ -1,8 +1,8 @@
 /*Crea un array con los nombres de 5 alumnos, posteriormente un array con las 
- notas de dichos alumnos. El programa solicitar· el nombre del alumno, y 
- devolver· su nota.*/
+ notas de dichos alumnos. El programa solicitar√° el nombre del alumno, y 
+ devolver√° su nota.*/
 
-//importamos librerÌa java util
+//importamos librer√≠a java util
 import java.util.Scanner;
 
 public class Entornos_desarrollo {
@@ -15,13 +15,14 @@ public class Entornos_desarrollo {
 		String nombre;
 				
 		//Declaramos los arrays y les damos valor
+		//A√±adimos nuevo alumno y nota, Cambio realizado por Sandra.
 		String[]alumnos={"Ana", "Maria", "Paco", "Jose", "Juan", "Raul"};
 		double[]notas={2, 5, 7, 8, 3, 10};
 		boolean existe=false;
 				
 		//Hacemos un menu mostrando los nombres de los alumnos
 				
-		System.out.println("Los alumnos que est·n en nuestro centro son: \nAna. \nMaria. \nPaco. \nJose. \nJuan. \nRaul.");
+		System.out.println("Los alumnos que est√°n en nuestro centro son: \nAna. \nMaria. \nPaco. \nJose. \nJuan. \nRaul.");
 				
 		System.out.println("Indique el nombre del alumno del que quiera saber la nota: ");
 		nombre=leer.nextLine();
